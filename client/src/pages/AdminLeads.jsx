@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://roof-estimator-api-ho7w.onrender.com";
 
 function AdminLeads() {
   const [leads, setLeads] = useState([]);
