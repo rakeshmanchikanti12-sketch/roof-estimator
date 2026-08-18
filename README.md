@@ -50,44 +50,32 @@ The application collects roof information from customers, calculates an estimate
 - MongoDB
 - dotenv
 
-## Project Structure
+## Live Application
+
+### Customer Estimator
+
+https://roof-estimator-f83d.onrender.com
+
+### Admin Panel
+
+Admin Login:
+
+https://roof-estimator-f83d.onrender.com/admin
+
+Admin Leads:
+
+https://roof-estimator-f83d.onrender.com/admin/leads
+
+Admin Configuration:
+
+https://roof-estimator-f83d.onrender.com/admin/config
+
+### Backend API
+
+https://roof-estimator-api-ho7w.onrender.com
+
+## Test Credentials
 
 ```text
-roof-estimator/
-│
-├── client/
-│   ├── public/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── pages/
-│   │   │   ├── AdminConfig.jsx
-│   │   │   ├── AdminLeads.jsx
-│   │   │   └── AdminLogin.jsx
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   ├── index.css
-│   │   └── main.jsx
-│   ├── package.json
-│   └── vite.config.js
-│
-├── server/
-│   ├── src/
-│   │   ├── controllers/
-│   │   │   ├── configController.js
-│   │   │   └── estimateController.js
-│   │   ├── models/
-│   │   │   ├── Config.js
-│   │   │   └── Lead.js
-│   │   ├── routes/
-│   │   │   ├── adminRoutes.js
-│   │   │   ├── configRoutes.js
-│   │   │   └── estimateRoutes.js
-│   │   ├── services/
-│   │   │   └── calculator.js
-│   │   ├── index.js
-│   │   └── seed.js
-│   ├── .env.example
-│   └── package.json
-│
-├── .gitignore
-└── README.md
+Username: admin
+Password: Roofing2026!
